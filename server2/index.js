@@ -43,7 +43,7 @@ app.use('/api/password-reset', passwordResetRoutes);
 
 app.get("/", (req, res) => {
   res.send(
-    `<a href="https://github.com/shelcia/CRM-backend">This is a backend app , click to open code</a>`
+    `<a href="https://github.com/Sathyanarayanan-R/CRM-App/tree/main/server2">This is a backend app , click to open code</a>`
   );
 });
 app.listen(PORT, () => console.log(`server up and running at  ${PORT}`));
