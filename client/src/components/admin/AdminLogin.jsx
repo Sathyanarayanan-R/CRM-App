@@ -18,7 +18,7 @@ const AdminLogin = () => {
 
   const history = useHistory();
 
-  const url = `http://localhost:1000/api/admin/login`;
+  const url = `https://crm-app-backend.onrender.com/api/admin/login`;
 
   const ErrorNotify = (message) => toast.error(message);
 

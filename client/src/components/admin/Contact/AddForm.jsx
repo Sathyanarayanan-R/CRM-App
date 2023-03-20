@@ -22,7 +22,7 @@ const AddForm = () => {
   const failedNotify = (message) => toast.error(message);
 
   const url =
-    "http://localhost:1000/api/admindashboard/contact";
+    "https://crm-app-backend.onrender.com/api/admindashboard/contact";
 
   const addContact = (e) => {
     setIsLoading(true);

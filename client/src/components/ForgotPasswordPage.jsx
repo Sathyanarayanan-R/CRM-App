@@ -15,7 +15,7 @@ const ForgotPasswordPage = () => {
 
     e.preventDefault();
     try {
-      const url = `http://localhost:1000/api/password-reset`;
+      const url = `https://crm-app-backend.onrender.com/api/password-reset`;
       const { data } = await axios.post(url, { email });
       setMsg(data.message);
       setError("");

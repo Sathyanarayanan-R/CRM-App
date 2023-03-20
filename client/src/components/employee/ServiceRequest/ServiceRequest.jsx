@@ -15,7 +15,7 @@ const ServiceRequest = () => {
   useEffect(() => {
     const getServiceRequest = async () => {
       const url =
-        "http://localhost:1000/api/employeedashboard/servicerequest";
+        "https://crm-app-backend.onrender.com/api/employeedashboard/servicerequest";
       const token = localStorage.getItem("token");
       axios({
         url: url,

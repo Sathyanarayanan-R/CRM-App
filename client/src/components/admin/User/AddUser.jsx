@@ -37,7 +37,7 @@ const AddUser = () => {
 
     if (type === "Employee") {
       const url =
-        "http://localhost:1000/api/employee/register";
+        "https://crm-app-backend.onrender.com/api/employee/register";
       axios
         .post(url, response, {
           headers: headers,
@@ -57,7 +57,7 @@ const AddUser = () => {
         });
     } else if (type === "Manager") {
       const url =
-        "http://localhost:1000/api/manager/register";
+        "https://crm-app-backend.onrender.com/api/manager/register";
 
       axios
         .post(url, response, {
@@ -77,7 +77,7 @@ const AddUser = () => {
           failedNotify("Failed to Add User");
         });
     } else if (type === "Admin") {
-      const url = "http://localhost:1000/api/admin/register";
+      const url = "https://crm-app-backend.onrender.com/api/admin/register";
       axios
         .post(url, response, {
           headers: headers,

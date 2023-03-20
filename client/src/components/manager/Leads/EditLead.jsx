@@ -29,7 +29,7 @@ const EditLead = ({ id, Title, Client, Number, Status }) => {
     const abortController = new AbortController();
     const signal = abortController.signal;
     const url =
-      "http://localhost:1000/api/managerdashboard/lead";
+      "https://crm-app-backend.onrender.com/api/managerdashboard/lead";
     const getResult = async () => {
       const token = localStorage.getItem("token");
       axios({
@@ -65,7 +65,7 @@ const EditLead = ({ id, Title, Client, Number, Status }) => {
     };
     axios
       .put(
-        `http://localhost:1000/api/managerdashboard/lead/${id}`,
+        `https://crm-app-backend.onrender.com/api/managerdashboard/lead/${id}`,
         response
       )
       .then((res) => {

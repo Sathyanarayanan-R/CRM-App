@@ -29,7 +29,7 @@ const EditLead = ({ id, Title, Client, Number, Email, Address }) => {
     const abortController = new AbortController();
     const signal = abortController.signal;
     const url =
-      "http://localhost:1000/api/managerdashboard/contact";
+      "https://crm-app-backend.onrender.com/api/managerdashboard/contact";
     const getResult = async () => {
       const token = localStorage.getItem("token");
       axios({

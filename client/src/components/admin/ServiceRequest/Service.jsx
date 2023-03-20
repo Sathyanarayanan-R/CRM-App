@@ -15,7 +15,7 @@ const ServiceRequest = ({ match }) => {
   const dispatch = useDispatch();
 
   const url =
-    "http://localhost:1000/api/admindashboard/servicerequest";
+    "https://crm-app-backend.onrender.com/api/admindashboard/servicerequest";
 
   const delServiceRequest = (id) => {
     const token = localStorage.getItem("token");

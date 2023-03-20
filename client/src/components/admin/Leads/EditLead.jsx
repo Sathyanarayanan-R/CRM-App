@@ -37,7 +37,7 @@ const EditLead = () => {
     };
     axios
       .put(
-        `http://localhost:1000/api/admindashboard/lead/${id}`,
+        `https://crm-app-backend.onrender.com/api/admindashboard/lead/${id}`,
         response
       )
       .then((res) => {

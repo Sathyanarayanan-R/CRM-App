@@ -14,7 +14,7 @@ const Contact = () => {
 
   useEffect(() => {
     const token = localStorage.getItem("token");
-    const url = `http://localhost:1000/api/employeedashboard/contact`;
+    const url = `https://crm-app-backend.onrender.com/api/employeedashboard/contact`;
     const getContacts = () => {
       axios({
         url: url,

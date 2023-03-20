@@ -15,7 +15,7 @@ const AddForm = () => {
   const failedNotify = (message) => toast.error(message);
 
   const url =
-    "http://localhost:1000/api/managerdashboard/lead";
+    "https://crm-app-backend.onrender.com/api/managerdashboard/lead";
   const addServiceRequest = (e) => {
     const token = localStorage.getItem("token");
     e.preventDefault();

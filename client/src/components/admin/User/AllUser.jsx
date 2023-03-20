@@ -16,7 +16,7 @@ const AllUsers = () => {
     const source = CancelToken.source();
     const getUsers = async () => {
       const token = localStorage.getItem("token");
-      const url = `http://localhost:1000/api/admindashboard/users`;
+      const url = `https://crm-app-backend.onrender.com/api/admindashboard/users`;
       axios({
         url: url,
         method: "get",
@@ -49,7 +49,7 @@ const AllUsers = () => {
       email: email,
     };
     console.log(response);
-    fetch("http://localhost:1000/api/admin/deleteuser", {
+    fetch("https://crm-app-backend.onrender.com/api/admin/deleteuser", {
       method: "DELETE",
       headers: {
         "auth-token": token,

@@ -15,7 +15,7 @@ const ManagerLogin = () => {
   const [password, setPassword] = useState("");
   const [isLoading, setLoading] = useState(false);
 
-  const url = `http://localhost:1000/api/manager/login`;
+  const url = `https://crm-app-backend.onrender.com/api/manager/login`;
 
   const history = useHistory();
 
@@ -52,7 +52,7 @@ const ManagerLogin = () => {
     // const response = { email: email, password: password };
     // try {
     //   const result = await axios.post(
-    //     "http://localhost:1000/api/manager/login",
+    //     "https://crm-app-backend.onrender.com/api/manager/login",
     //     response
     //   );
     //   setLoading(false);

@@ -15,7 +15,7 @@ const Lead = () => {
   useEffect(() => {
     const token = localStorage.getItem("token");
     const url =
-      "http://localhost:1000/api/managerdashboard/lead";
+      "https://crm-app-backend.onrender.com/api/managerdashboard/lead";
     const getLeads = async () => {
       axios({
         url: url,

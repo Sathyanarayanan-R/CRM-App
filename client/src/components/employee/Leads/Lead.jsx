@@ -15,7 +15,7 @@ const Lead = () => {
   useEffect(() => {
     const token = localStorage.getItem("token");
     const url =
-      "http://localhost:1000/api/employeedashboard/lead";
+      "https://crm-app-backend.onrender.com/api/employeedashboard/lead";
     const getLeads = async () => {
       console.log(token);
       axios({

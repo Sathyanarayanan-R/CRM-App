@@ -43,7 +43,7 @@ const EditService = ({
     const abortController = new AbortController();
     const signal = abortController.signal;
     const url =
-      "http://localhost:1000/api/managerdashboard/servicerequest";
+      "https://crm-app-backend.onrender.com/api/managerdashboard/servicerequest";
     const getResult = async () => {
       const token = localStorage.getItem("token");
       axios({
@@ -83,7 +83,7 @@ const EditService = ({
     };
     axios
       .put(
-        `http://localhost:1000/api/managerdashboard/servicerequest/${id}`,
+        `https://crm-app-backend.onrender.com/api/managerdashboard/servicerequest/${id}`,
         response
       )
       .then((res) => {

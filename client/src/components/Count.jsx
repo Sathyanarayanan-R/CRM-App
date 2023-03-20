@@ -13,7 +13,7 @@ const ServiceRequest = () => {
 
         const getServiceRequest = async () => {
 
-            const url = "http://localhost:1000/api/admindashboard/servicerequest";
+            const url = "https://crm-app-backend.onrender.com/api/admindashboard/servicerequest";
     
             axios({
                 url: url,
@@ -33,7 +33,7 @@ const ServiceRequest = () => {
         };
     
         const getLeads = async () => {
-            const url = "http://localhost:1000/api/admindashboard/lead";
+            const url = "https://crm-app-backend.onrender.com/api/admindashboard/lead";
             axios({
                 url: url,
                 method: "get",
@@ -51,7 +51,7 @@ const ServiceRequest = () => {
         };
     
         const getContacts = () => {
-            const url = "http://localhost:1000/api/admindashboard/contact";
+            const url = "https://crm-app-backend.onrender.com/api/admindashboard/contact";
             axios({
                 url: url,
                 method: "get",

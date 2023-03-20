@@ -45,7 +45,7 @@ const EditService = () => {
     };
     axios
       .put(
-        `http://localhost:1000/api/admindashboard/servicerequest/${id}`,
+        `https://crm-app-backend.onrender.com/api/admindashboard/servicerequest/${id}`,
         response
       )
       .then((res) => {

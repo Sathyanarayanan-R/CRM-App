@@ -16,7 +16,7 @@ const Contacts = ({ match }) => {
   const [view, setView] = useState("noedit");
 
   const url =
-    "http://localhost:1000/api/admindashboard/contact";
+    "https://crm-app-backend.onrender.com/api/admindashboard/contact";
 
   const delContact = (id) => {
     const token = localStorage.getItem("token");

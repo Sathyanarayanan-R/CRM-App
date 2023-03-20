@@ -14,7 +14,7 @@ const Lead = ({ match }) => {
   const [view, setView] = useState("noedit");
 
   const url =
-    "http://localhost:1000/api/admindashboard/lead";
+    "https://crm-app-backend.onrender.com/api/admindashboard/lead";
 
   const delLead = (id) => {
     const token = localStorage.getItem("token");

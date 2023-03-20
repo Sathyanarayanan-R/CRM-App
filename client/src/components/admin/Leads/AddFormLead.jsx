@@ -19,7 +19,7 @@ const AddForm = () => {
   const failedNotify = (message) => toast.error(message);
 
   const url =
-    "http://localhost:1000/api/admindashboard/lead";
+    "https://crm-app-backend.onrender.com/api/admindashboard/lead";
 
   const addServiceRequest = (e) => {
     setIsLoading(true);

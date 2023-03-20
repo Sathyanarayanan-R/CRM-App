@@ -17,7 +17,7 @@ const AddForm = () => {
   const [isLoading, setIsLoading] = useState(false);
 
   const url =
-    "http://localhost:1000/api/managerdashboard/contact";
+    "https://crm-app-backend.onrender.com/api/managerdashboard/contact";
 
   const successNotify = () => toast.success("Succesfully Added");
   const failedNotify = (message) => toast.error(message);

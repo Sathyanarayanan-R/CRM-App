@@ -18,7 +18,7 @@ const EmployeeLogin = () => {
 
   const history = useHistory();
 
-  const url = `http://localhost:1000/api/employee/login`;
+  const url = `https://crm-app-backend.onrender.com/api/employee/login`;
 
   const ErrorNotify = (message) => toast.error(message);
 
