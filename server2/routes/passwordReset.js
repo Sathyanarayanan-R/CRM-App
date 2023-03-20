@@ -33,7 +33,7 @@ router.post("/", async (req, res) => {
             }).save();
         }
 
-        const url = `${req.protocol}://${req.get("host")}/password-reset/${user._id}/${token.token}`;
+        const url = `https://crm-app-sj.netlify.app/password-reset/${user._id}/${token.token}`;
         await sendEmail(user.email, "Password Reset", url);
 
         res.status(200).json({ message: "Password reset link sent to your email account" });
