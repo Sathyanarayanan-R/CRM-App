@@ -1,4 +1,0 @@
-1. Forgot Password
-2. Employee should have rights to create, update & search for leads, contacts, service requests
-3. Display the created total count of service requests, leads, contacts
-4. If any leads or service requests created, it should trigger an email to manager & admin
