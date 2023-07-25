@@ -13,17 +13,7 @@
 
 ## 📌 Introduction
 
-Customer relations management tool built in MERN stack
-
-## ⭐ How to get started?
-
-You can refer to the following articles on the basics of Git and Github and also contact the Project Mentors, in case you are stuck:
-
-- [Watch this video to get started, if you have no clue about open source](https://youtu.be/SL5KKdmvJ1U)
-- [Forking a Repo](https://help.github.com/en/github/getting-started-with-github/fork-a-repo)
-- [Cloning a Repo](https://help.github.com/en/desktop/contributing-to-projects/creating-a-pull-request)
-- [How to create a Pull Request](https://opensource.com/article/19/7/create-pull-request-github)
-- [Getting started with Git and GitHub](https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6)
+Customer relations management tool built in MERN stack.
 
 ## ⭐ Features of the app
 Three sections of this app:-
@@ -85,36 +75,29 @@ Three sections of this app:-
  - Forgot Password Page for Admin, Manager & Employee
 
 
-Deployment Link : https://crm-app-sj.netlify.app/
+## Deployed Website : https://crm-app-sj.netlify.app
 
+## Github Repositories
 
 Frontend Link : https://github.com/Sathyanarayanan-R/CRM-App/tree/main/client
 
-
 Backend Link : https://github.com/Sathyanarayanan-R/CRM-App/tree/main/server2
-
 
 # Credentials to try out the app :
 
-
-### For Admin Signin
-
+### For Admin Sign in
 
 email : admin@gmail.com
 
 password: admin1
 
-
-### For Manager Signin
-
+### For Manager Sign in
 
 email : manager@gmail.com
 
 password: manager1
 
-
-### For Employee Signin
-
+### For Employee Sign in
 
 email : employee@gmail.com
 
