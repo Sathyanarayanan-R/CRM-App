@@ -15,6 +15,34 @@
 
 Customer relations management tool built in MERN stack.
 
+## Deployed Website : https://crm-app-sj.netlify.app
+
+## Github Repositories
+
+Frontend Link : https://github.com/Sathyanarayanan-R/CRM-App/tree/main/client
+
+Backend Link : https://github.com/Sathyanarayanan-R/CRM-App/tree/main/server2
+
+# Credentials to try out the app :
+
+### For Admin Sign in
+
+email : admin@gmail.com
+
+password: admin1
+
+### For Manager Sign in
+
+email : manager@gmail.com
+
+password: manager1
+
+### For Employee Sign in
+
+email : employee@gmail.com
+
+password: employee1
+
 ## ⭐ Features of the app
 Three sections of this app:-
 - Employer (access the details about service requested, leads, contacts)
@@ -73,32 +101,3 @@ Three sections of this app:-
  - If any leads or service requests created, it should trigger an email to manager & admin
  - Displays the created total count of service requests, leads, contacts
  - Forgot Password Page for Admin, Manager & Employee
-
-
-## Deployed Website : https://crm-app-sj.netlify.app
-
-## Github Repositories
-
-Frontend Link : https://github.com/Sathyanarayanan-R/CRM-App/tree/main/client
-
-Backend Link : https://github.com/Sathyanarayanan-R/CRM-App/tree/main/server2
-
-# Credentials to try out the app :
-
-### For Admin Sign in
-
-email : admin@gmail.com
-
-password: admin1
-
-### For Manager Sign in
-
-email : manager@gmail.com
-
-password: manager1
-
-### For Employee Sign in
-
-email : employee@gmail.com
-
-password: employee1
