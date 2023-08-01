@@ -40,7 +40,7 @@ const AddForm = () => {
       expected_closing: closing,
       priority: priority,
     };
-    console.log(response);
+    
     if (
       !title ||
       !client ||
@@ -71,7 +71,7 @@ const AddForm = () => {
       data: response,
     })
       .then((response) => {
-        console.log(response);
+        
         if (response.status === 400) {
           failedNotify("Oops! we are facing some issue try again later");
           setIsLoading(false);

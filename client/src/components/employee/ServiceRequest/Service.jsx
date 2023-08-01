@@ -3,7 +3,7 @@ import { useSelector } from "react-redux";
 import Sidenav from "../Sidenav";
 
 const ServiceRequest = ({ match }) => {
-  console.log(match.params.id);
+  
   const results = useSelector((state) => state.service);
   const services = results.filter((result) => result._id === match.params.id);
 

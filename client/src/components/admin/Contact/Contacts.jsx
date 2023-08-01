@@ -34,7 +34,6 @@ const Contacts = ({ match }) => {
     })
       .then((res) => res.json())
       .then((data) => {
-        // console.log(data);
         toast.success("Succesfully Deleted");
       })
       .catch((error) => {

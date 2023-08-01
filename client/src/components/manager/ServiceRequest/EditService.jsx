@@ -56,7 +56,7 @@ const EditService = ({
         signal: signal,
       })
         .then((response) => {
-          console.log(response);
+          
           setResults(response.data);
           setTitle(response.data.title);
           setLoading(false);
@@ -87,7 +87,6 @@ const EditService = ({
         response
       )
       .then((res) => {
-        console.log(res.data);
         successNotify();
       })
       .catch((error) => {

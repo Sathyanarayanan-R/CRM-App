@@ -42,7 +42,7 @@ const EditLead = ({ id, Title, Client, Number, Status }) => {
         signal: signal,
       })
         .then((response) => {
-          console.log(response);
+          
           setResults(response.data);
           setTitle(response.data.title);
           setLoading(false);

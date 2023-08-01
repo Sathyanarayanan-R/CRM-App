@@ -3,7 +3,6 @@ import { useSelector } from "react-redux";
 import Sidenav from "../Sidenav";
 
 const Contacts = ({ match }) => {
-  console.log(match.params.id);
   const results = useSelector((state) => state.contact);
   const contacts = results.filter((result) => result._id === match.params.id);
 

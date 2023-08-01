@@ -8,11 +8,10 @@ const DelUser = () => {
   const history = useHistory();
 
   const delUser = () => {
-    console.log("delete");
     const response = {
       email: email,
     };
-    console.log(response);
+    
     fetch("https://crm-app-backend.onrender.com/api/admin/deleteuser", {
       method: "DELETE",
       headers: {

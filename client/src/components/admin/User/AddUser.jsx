@@ -21,7 +21,6 @@ const AddUser = () => {
   //ADD EMPLOYEE
   const addUser = (e) => {
     e.preventDefault();
-    console.log("clicked");
     const response = {
       fname: fname,
       lname: lname,
@@ -44,7 +43,6 @@ const AddUser = () => {
         })
         .then((response) => response.json())
         .then((data) => {
-          console.log(data.details[0].message);
           if (data.details[0].message) {
             failedNotify(data.details[0].message);
           } else {
@@ -65,7 +63,6 @@ const AddUser = () => {
         })
         .then((response) => response.json())
         .then((data) => {
-          console.log(data.details[0].message);
           if (data.details[0].message) {
             failedNotify(data.details[0].message);
           } else {

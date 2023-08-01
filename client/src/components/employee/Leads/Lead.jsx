@@ -17,7 +17,6 @@ const Lead = () => {
     const url =
       "https://crm-app-backend.onrender.com/api/employeedashboard/lead";
     const getLeads = async () => {
-      console.log(token);
       axios({
         url: url,
         method: "get",

@@ -29,7 +29,6 @@ const Contact = ({ match }) => {
         },
       })
         .then((response) => {
-          console.log(response.data);
           dispatch(LoadContact(response.data));
           setLoading(false);
         })

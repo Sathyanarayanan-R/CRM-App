@@ -18,7 +18,6 @@ const Lead = ({ match }) => {
 
   const delLead = (id) => {
     const token = localStorage.getItem("token");
-    console.log("delete");
     const response = {
       _id: id,
     };

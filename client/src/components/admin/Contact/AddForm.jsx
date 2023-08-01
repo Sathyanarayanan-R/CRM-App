@@ -51,7 +51,7 @@ const AddForm = () => {
       data: response,
     })
       .then((response) => {
-        console.log(response);
+        
         if (response.status === 400) {
           failedNotify("Oops! we are facing some issue try again later");
           setIsLoading(false);

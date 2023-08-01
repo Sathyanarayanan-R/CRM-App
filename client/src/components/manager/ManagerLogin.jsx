@@ -31,7 +31,7 @@ const ManagerLogin = () => {
       data: response,
     })
       .then((response) => {
-        // console.log(response);
+        // 
         setLoading(false);
         if (response.data.message) {
           ErrorNotify(response.data.message);

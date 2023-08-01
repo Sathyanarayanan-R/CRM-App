@@ -27,7 +27,7 @@ const AllUsers = () => {
         cancelToken: source.token,
       })
         .then((response) => {
-          console.log(response);
+          
           setLoading(false);
           setUsers(response.data);
         })
@@ -44,11 +44,10 @@ const AllUsers = () => {
 
   const delUser = (email) => {
     setUsers(users.filter((user) => user.email !== email));
-    console.log("delete");
     const response = {
       email: email,
     };
-    console.log(response);
+    
     fetch("https://crm-app-backend.onrender.com/api/admin/deleteuser", {
       method: "DELETE",
       headers: {
